@@ -9,16 +9,13 @@ class Main {
     
         System.out.println("VAMOS CALCULAR SUA MÉDIA ESCOLAR");
 		System.out.println("Digite sua nota em matemática:");
-		nota1 = ler.nextDouble();
+		  nota1 = ler.nextDouble();
 		System.out.println("Digite sua nota em português:");
-		nota2 = ler.nextDouble();
+		  nota2 = ler.nextDouble();
 		System.out.println("Digite sua nota em ciências:");
-		nota3 = ler.nextDouble();
+		  nota3 = ler.nextDouble();
 		media = (nota1 + nota2 + nota3)/3;
 		
-	    System.out.println("Sua média nas três matérias é: " + media);
-
-
-		
+	    System.out.println("Sua média nas três matérias é: " + media);		
   }
 }
