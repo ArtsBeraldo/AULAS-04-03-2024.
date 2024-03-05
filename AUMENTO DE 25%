@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+import java.io.*;
+
+class Main {
+
+public static void main(String[] args) {
+
+double salario, novoSalario;
+
+Scanner ler = new
+
+Scanner(System.in);
+
+System.out.println("VAMOS VER QUAL O SEU NOVO SALÁRIO NA ABC LTDA");
+System.out.println("QUAL O SEU SALÁRIO?");
+  salario = ler.nextDouble();
+novoSalario = salario+salario*0.25;
+System.out.print("SABENDO QUE SEU SALÁRIO É DE R$" + salario);
+System.out.println(", E SERÁ AUMENTADO DELE 25%, SEU NOVO SALÁRIO É DE R$" + novoSalario);
+}
+}
