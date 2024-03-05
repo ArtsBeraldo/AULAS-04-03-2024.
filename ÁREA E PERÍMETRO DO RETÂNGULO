@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.io.*;
+
+class Main {
+  public static void main(String[] args) {
+     double Area, Base, Altura, Perimetro; 
+		Scanner ler = new 
+    Scanner(System.in);
+    
+		System.out.println("Digite a base do seu retângulo:");
+		  Base = ler.nextDouble();
+		System.out.println("Digite altura do seu retângulo:");
+		  Altura = ler.nextDouble();
+		Area = Base*Altura;
+		Perimetro = 2*(Base+Altura);
+	  System.out.println("Área do seu retângulo é: " + Area);
+	  System.out.println("Perímetro do seu retângulo é: " + Perimetro);	
+  }
+}
