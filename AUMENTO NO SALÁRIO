@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.io.*;
+
+class Main {
+  public static void main(String[] args) {
+     double salario, aumento, vlraumento, novosl; 
+		Scanner ler = new 
+    Scanner(System.in);
+    
+        System.out.println("VAMOS ANALISAR SEU AUMENTO");
+        System.out.println("Qual é seu salário?");
+        salario = ler.nextDouble();
+        System.out.println("Qual a porcentagem que seu salário vai aumentar?");
+        aumento = ler.nextDouble();
+        vlraumento = salario*aumento/100;
+        novosl = salario+vlraumento;
+	    System.out.println("Seu salário atual é de R$" + salario);
+	    System.out.println("O valor do seu aumento é de R$" + vlraumento);
+	    System.out.println("O seu novo salário é de R$" + novosl);
+
+		
+  }
+}
